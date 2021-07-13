@@ -3,7 +3,7 @@ import "../App.css";
 
 function Cards({ weekDey, imgURL, temp }) {
   return (
-    <div className="p1">
+    <div className="main-cards">
       <h1 className="weekDeyName">{weekDey}</h1>
       <img className="img" src={imgURL}></img>
       <h2 className="temp">{temp}</h2>

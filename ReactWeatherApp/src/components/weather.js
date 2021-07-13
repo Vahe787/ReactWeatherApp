@@ -4,7 +4,7 @@ import "../App.css";
 
 export default function Weather() {
   return (
-    <div className="div1">
+    <div className="main-weather">
       {weatherInfo.map((el) => {
         return <Cards weekDey={el.weekDey} imgURL={el.imgURL} temp={el.temp} />;
       })}

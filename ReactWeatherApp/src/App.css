@@ -3,7 +3,7 @@ body {
   background-size: cover;
 }
 
-.div1 {
+.main-weather {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -11,7 +11,7 @@ body {
   margin-top: 15%;
 }
 
-.p1 {
+.main-cards {
   width: 13%;
   margin: 5px;
   font-size: 15px;
