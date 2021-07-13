@@ -17,6 +17,11 @@ body {
   font-size: 15px;
   text-align: center;
   box-shadow: 6px 6px 10px 4px white;
+  transition: 0.3s;
+}
+
+.main-cards:hover {
+  font-size: 10px;
 }
 
 .img {
